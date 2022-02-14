@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Dec 04, 2021 at 01:51 AM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 8.0.13
+-- Host: 127.0.0.1
+-- Generation Time: Feb 14, 2022 at 01:02 PM
+-- Server version: 10.4.18-MariaDB
+-- PHP Version: 8.0.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -177,9 +177,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (138, 'Sonny Boy'),
 (139, 'Edens Zero'),
 (140, 'Baki Hanma'),
-(141, 'Demon Slayer: Kimetsu no Yaiba Mugen Train Arc'),
-(142, 'KONOSUBA -God\'s blessing on this wonderful world!'),
-(143, 'KONOSUBA -God\'s blessing on this wonderful world! S2');
+(141, 'Mieruko-chan'),
+(142, 'Demon Slayer: Kimetsu no Yaiba Entertainment District Arc');
 
 --
 -- Indexes for dumped tables
@@ -199,7 +198,7 @@ ALTER TABLE `watched_anime`
 -- AUTO_INCREMENT for table `watched_anime`
 --
 ALTER TABLE `watched_anime`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=144;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=143;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
