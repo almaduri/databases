@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 14, 2022 at 01:02 PM
+-- Generation Time: Feb 17, 2022 at 12:18 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.5
 
@@ -178,7 +178,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (139, 'Edens Zero'),
 (140, 'Baki Hanma'),
 (141, 'Mieruko-chan'),
-(142, 'Demon Slayer: Kimetsu no Yaiba Entertainment District Arc');
+(142, 'Demon Slayer: Kimetsu no Yaiba Entertainment District Arc'),
+(143, 'The Night Beyond the Tricornered Window');
 
 --
 -- Indexes for dumped tables
@@ -198,7 +199,7 @@ ALTER TABLE `watched_anime`
 -- AUTO_INCREMENT for table `watched_anime`
 --
 ALTER TABLE `watched_anime`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=143;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=144;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
