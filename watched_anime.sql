@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2022 at 02:14 AM
+-- Generation Time: Feb 23, 2022 at 02:15 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.5
 
@@ -183,7 +183,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (144, 'Mushoku Tensei: Jobless Reincarnation Cour 2'),
 (145, 'Boku no Hero Academia the Movie 3: World Heroes\' Mission'),
 (146, 'Irina: The Vampire Cosmonaut'),
-(147, 'The Fruit of Evolution: Before I Knew It, My Life Had It Made');
+(147, 'The Fruit of Evolution: Before I Knew It, My Life Had It Made'),
+(148, 'Takt Opt. Destiny');
 
 --
 -- Indexes for dumped tables
@@ -203,7 +204,7 @@ ALTER TABLE `watched_anime`
 -- AUTO_INCREMENT for table `watched_anime`
 --
 ALTER TABLE `watched_anime`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=148;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=149;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
