@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2022 at 02:47 AM
+-- Generation Time: Feb 28, 2022 at 01:46 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.5
 
@@ -185,7 +185,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (146, 'Irina: The Vampire Cosmonaut'),
 (147, 'The Fruit of Evolution: Before I Knew It, My Life Had It Made'),
 (148, 'Takt Opt. Destiny'),
-(149, 'The World\'s Finest Assassin Gets Reincarnated in Another World as an Aristocrat');
+(149, 'The World\'s Finest Assassin Gets Reincarnated in Another World as an Aristocrat'),
+(150, 'Banished from the Hero’s Party, I Decided to Live a Quiet Life in the Countryside');
 
 --
 -- Indexes for dumped tables
@@ -205,7 +206,7 @@ ALTER TABLE `watched_anime`
 -- AUTO_INCREMENT for table `watched_anime`
 --
 ALTER TABLE `watched_anime`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=150;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=151;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
