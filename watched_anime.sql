@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 01, 2022 at 01:03 PM
+-- Generation Time: Mar 04, 2022 at 02:39 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.5
 
@@ -188,7 +188,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (149, 'The World\'s Finest Assassin Gets Reincarnated in Another World as an Aristocrat'),
 (150, 'Banished from the Hero’s Party, I Decided to Live a Quiet Life in the Countryside'),
 (151, 'Deep Insanity: The Lost Child'),
-(152, 'The Faraway Paladin');
+(152, 'The Faraway Paladin'),
+(153, '86 Season 2');
 
 --
 -- Indexes for dumped tables
@@ -208,7 +209,7 @@ ALTER TABLE `watched_anime`
 -- AUTO_INCREMENT for table `watched_anime`
 --
 ALTER TABLE `watched_anime`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=153;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=154;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
