@@ -115,7 +115,8 @@ INSERT INTO `mac_list` (`id`, `name`, `mac_address`) VALUES
 (127, 'Dirga', '70:b7:aa:c2:c9:b9'),
 (128, 'Inul', '20:3b:69:d4:8d:09'),
 (129, 'Amat', '28:31:66:84:02:fd'),
-(130, 'Benjol', '3c:b6:b7:39:86:f9');
+(130, 'Benjol', '3c:b6:b7:39:86:f9'),
+(131, 'Brazil', '98:c8:b8:85:08:19');
 
 --
 -- Indexes for dumped tables
