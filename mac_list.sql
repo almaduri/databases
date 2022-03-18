@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: remotemysql.com
--- Generation Time: Feb 07, 2022 at 12:57 PM
+-- Generation Time: Mar 18, 2022 at 01:12 AM
 -- Server version: 8.0.13-4
 -- PHP Version: 7.3.33-1+ubuntu18.04.1+deb.sury.org+1
 
@@ -113,7 +113,8 @@ INSERT INTO `mac_list` (`id`, `name`, `mac_address`) VALUES
 (125, 'Ari Cina', 'd0:28:ba:11:4b:d7'),
 (126, 'Pak Dusun', '80:35:c1:5c:10:8c'),
 (127, 'Dirga', '70:b7:aa:c2:c9:b9'),
-(128, 'Inul', '20:3b:69:d4:8d:09');
+(128, 'Inul', '20:3b:69:d4:8d:09'),
+(129, 'Amat', '28:31:66:84:02:fd');
 
 --
 -- Indexes for dumped tables
@@ -133,7 +134,7 @@ ALTER TABLE `mac_list`
 -- AUTO_INCREMENT for table `mac_list`
 --
 ALTER TABLE `mac_list`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=135;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
