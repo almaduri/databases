@@ -46,7 +46,7 @@ INSERT INTO `mac_list` (`id`, `name`, `mac_address`) VALUES
 (10, 'Issa Olahraga', '20:74:54:9b:97:99'),
 (11, 'Risman', '20:74:54:a2:96:17'),
 (13, 'Saki B', '28:31:66:70:34:4f'),
-(17, 'Ardiman (Blocked)', '2c:d0:66:09:0f:94'),
+(17, 'Ardiman', '2c:d0:66:09:0f:94'),
 (21, 'Idil', '30:af:ce:09:87:fb'),
 (22, 'Fatir', '30:af:ce:23:ff:65'),
 (28, 'Alwi', '68:bf:c4:12:c1:6e'),
