@@ -198,7 +198,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (158, 'Haikyuu!! Season 2'),
 (159, 'Haikyuu!! Season 3'),
 (160, 'Haikyuu!! To the Top Part 1'),
-(161, 'Haikyuu!! To the Top Part 2');
+(161, 'Haikyuu!! To the Top Part 2'),
+(162, 'Rust-Eater Bisco');
 
 --
 -- Indexes for dumped tables
