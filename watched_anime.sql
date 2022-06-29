@@ -194,7 +194,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (154, 'Ancient Girl\'s Frame'),
 (155, 'Odd Taxi'),
 (156, 'Orient'),
-(157, 'Haikyuu!!');
+(157, 'Haikyuu!!'),
+(158, 'Haikyuu!! Season 2');
 
 --
 -- Indexes for dumped tables
