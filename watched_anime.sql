@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 27, 2022 at 04:45 AM
--- Server version: 10.4.18-MariaDB
--- PHP Version: 8.0.5
+-- Host: localhost
+-- Generation Time: Jun 29, 2022 at 09:32 AM
+-- Server version: 8.0.13-4
+-- PHP Version: 7.2.24-0ubuntu0.18.04.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `entertainment`
+-- Database: `MSXrnFEvyB`
 --
 
 -- --------------------------------------------------------
@@ -30,7 +31,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `watched_anime` (
   `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `watched_anime`
@@ -192,7 +193,8 @@ INSERT INTO `watched_anime` (`id`, `title`) VALUES
 (153, '86 Season 2'),
 (154, 'Ancient Girl\'s Frame'),
 (155, 'Odd Taxi'),
-(156, 'Orient');
+(156, 'Orient'),
+(157, 'Haikyuu!!');
 
 --
 -- Indexes for dumped tables
@@ -212,7 +214,7 @@ ALTER TABLE `watched_anime`
 -- AUTO_INCREMENT for table `watched_anime`
 --
 ALTER TABLE `watched_anime`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=157;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=163;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
